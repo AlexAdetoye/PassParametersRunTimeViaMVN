@@ -23,7 +23,10 @@ public class loginTest {
 //		WebDriver driver=new ChromeDriver();
 //		
 //		//Open URL of the Application
+		String url = "http://the-internet.herokuapp.com/login";
 //		driver.get("URL");
+		sleep(2000);
+		System.out.println("Page is opened.");
 //		
 //		//Create WebElements
 //		WebElement username=driver.findElement(By.xpath(""));
